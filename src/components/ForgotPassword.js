@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Base from '../Base/Base'
 import { Link, useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify';
-
+import logo from '../logo/url.png'
 function ForgotPassword() {
     const [email, setEmail] = useState('');
     const navigate = useNavigate();
@@ -41,8 +41,8 @@ function ForgotPassword() {
         <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 loginpage" >
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img
-            className="mx-auto h-20 w-auto"
-            src="https://img.freepik.com/free-vector/butterfly-logo-colorful-gradient-illustrations_483537-972.jpg?w=996&t=st=1687687780~exp=1687688380~hmac=a4343dae5ccb4e60ef41bffc0639c3e79b8d63e53d9d33713036e75d85217605"
+            className="mx-auto h-20 w-auto logo"
+            src={logo}
             alt="Your Company"
           />
           <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
