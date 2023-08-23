@@ -225,7 +225,7 @@ function Home() {
               <TableCell style={{color:'rgb(36,164,242)',fontFamily:"monospace"}} > 
                 <a href={`https://url-shortener-lev5.onrender.com/shortUrl/${item.shortUrl}`} 
                   target="_blank" 
-                  rel="noopener noreferrer">{`https://url-shortener-lev5.onrender.com/shortUrl/${item.shortUrl}`}
+                  rel="noopener noreferrer">{item.shortUrl}
                 </a>
               </TableCell>
 
